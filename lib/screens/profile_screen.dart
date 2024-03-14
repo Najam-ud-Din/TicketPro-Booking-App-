@@ -7,24 +7,21 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final iscolor = null;
-    return SizedBox(
-      height: Applayout.getheight(24),
-      child: LayoutBuilder(
-        builder: (BuildContext context, BoxConstraints constraints) {
-          return Flex(
-            direction: Axis.horizontal,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            mainAxisSize: MainAxisSize.max,
-            children: List.generate(
-                (constraints.constrainWidth() / 6).floor(),
-                (index) => Text(
-                      "-",
-                      style: TextStyle(
-                          color: iscolor == null ? Colors.white : Colors.blue),
-                    )),
-          );
-        },
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("My app bar "),
       ),
+      body: Center(
+          child: Column(
+        children: [
+          TextButton(
+            child: Text("Click here"),
+            onPressed: () {
+              print("Button is tapped");
+            },
+          )
+        ],
+      )),
     );
   }
 }
