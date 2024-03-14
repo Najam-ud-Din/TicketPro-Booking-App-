@@ -19,6 +19,12 @@ class ProfileScreen extends StatelessWidget {
             onPressed: () {
               print("Button is tapped");
             },
+          ),
+          ElevatedButton(
+            child: Text("Elevated Button"),
+            onPressed: () {
+              Text();
+            },
           )
         ],
       )),
