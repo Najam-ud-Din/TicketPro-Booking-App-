@@ -21,6 +21,7 @@ class ticketScreen extends StatelessWidget {
         body: Stack(
           children: [
             ListView(
+              scrollDirection: Axis.vertical,
               padding: EdgeInsets.symmetric(
                   horizontal: Applayout.getWidth(17),
                   vertical: Applayout.getheight(20)),
