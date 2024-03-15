@@ -5,7 +5,7 @@ import 'package:ticket_app/utils/app_info_list.dart';
 import 'package:ticket_app/utils/app_layout.dart';
 import 'package:ticket_app/utils/app_styles.dart';
 import 'package:ticket_app/utils/space.dart';
-import 'package:ticket_app/widgets/Tic_screen_cont.dart';
+//import 'package:ticket_app/widgets/Tic_screen_cont.dart';
 import 'package:ticket_app/widgets/app_tab.dart';
 // import 'package:ticket_app/widgets/icon_text_container.dart';
 // import 'package:ticket_app/widgets/view_all.dart';
