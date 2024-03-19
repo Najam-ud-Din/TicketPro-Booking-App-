@@ -218,6 +218,11 @@ class ProfileScreen extends StatelessWidget {
                       onPressed: () {},
                       child: Text('Button 2'),
                     ),
+                    gap(Height: Applayout.getheight(12), Width: 0),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text('Button 2'),
+                    ),
                   ],
                 ),
               ],
