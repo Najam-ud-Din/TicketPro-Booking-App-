@@ -4,6 +4,7 @@ import 'package:ticket_app/screens/home_screen.dart';
 //import 'package:ticket_app/screens/movescreen.dart';
 import 'package:ticket_app/screens/profile_screen.dart';
 import 'package:ticket_app/screens/ticket_screen.dart';
+import 'package:ticket_app/screens/waste2.dart';
 import 'package:ticket_app/utils/app_styles.dart';
 import 'package:ticket_app/screens/search_screen.dart';
 
@@ -15,7 +16,7 @@ class ButtomBar extends StatefulWidget {
 }
 
 class ButtomBarState extends State<ButtomBar> {
-  int selectedIndex = 0;
+  int selectedIndex = 1;
 
   void onitemtapped(int index) {
     setState(() {

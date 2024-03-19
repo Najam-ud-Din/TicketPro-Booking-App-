@@ -30,18 +30,21 @@ class SearchScreen extends StatelessWidget {
           gap(Height: Applayout.getheight(20), Width: 0),
           IconText(icon: Icons.flight_land_rounded, text: "Arrival"),
           gap(Height: Applayout.getheight(32), Width: 0),
-          Container(
-            padding: EdgeInsets.symmetric(
-                horizontal: Applayout.getWidth(15),
-                vertical: Applayout.getWidth(16)),
-            decoration: BoxDecoration(
-                color: styles.tic_hotel_color,
-                borderRadius: BorderRadius.circular(7)),
-            child: Center(
-              child: Text(
-                "Find Tickets",
-                style: styles.textStyle
-                    .copyWith(color: Colors.white, fontSize: 14),
+          Card(
+            elevation: 8,
+            child: Container(
+              padding: EdgeInsets.symmetric(
+                  horizontal: Applayout.getWidth(15),
+                  vertical: Applayout.getWidth(16)),
+              decoration: BoxDecoration(
+                  color: styles.tic_hotel_color,
+                  borderRadius: BorderRadius.circular(7)),
+              child: Center(
+                child: Text(
+                  "Find Tickets",
+                  style: styles.textStyle
+                      .copyWith(color: Colors.white, fontSize: 14),
+                ),
               ),
             ),
           ),
